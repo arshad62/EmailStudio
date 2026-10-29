@@ -15,11 +15,13 @@ This studio plans and writes email campaigns for a small business. The current c
 
 1. Write in plain English. Short sentences. No marketing jargon.
 2. Never send email to real people. Only practice addresses are allowed.
-3. Ask me before deleting anything.
-4. Ask me before changing a rule in `.opencode/rules/` or a safety guard in `.opencode/plugins/`.
-5. Keep all customer data made up. Every lead address must end in `@example.com`.
-6. When a task changes an email, re-read `brand/voice.md` and `.opencode/rules/emails.md` first.
-7. Commit work with a clear message when a step is finished.
+3. Sending through Resend is allowed only to Resend test addresses (ending in `@resend.dev`) and to my own address, saved as `MY_EMAIL` in `.opencode/settings.local.json`. A send guard enforces this before any Resend tool runs. Do not try to get around the guard.
+4. Ask me before deleting anything.
+5. Ask me before changing a rule in `.opencode/rules/` or a safety guard in `.opencode/plugins/`.
+6. Keep all customer data made up. Every lead address must end in `@example.com`.
+7. When a task changes an email, re-read `brand/voice.md` and `.opencode/rules/emails.md` first.
+8. Commit work with a clear message when a step is finished.
+9. The Resend connection defaults to the practice server at `http://localhost:4000`. Start it with `npx emulate@0.12.3 start --service resend` in a second terminal.
 
 ## Tooling note
 

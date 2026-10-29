@@ -25,5 +25,17 @@
       "resource": "opencode.json",
       "effect": "ask"
     }
-  ]
+  ],
+  "mcp": {
+    "servers": {
+      "resend": {
+        "type": "local",
+        "command": [
+          "node",
+          "scripts/resend-mcp.mjs"
+        ],
+        "codemode": false
+      }
+    }
+  }
 }
