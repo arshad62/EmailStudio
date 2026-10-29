@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kettlebird.example/review/findings.schema.json",
+  "title": "Email review findings",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["findings"],
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file", "line", "severity", "problem", "fix"],
+        "properties": {
+          "file": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path to the email file, relative to the studio root."
+          },
+          "line": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "1-based line number in that file."
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "problem": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What is wrong, quoting the text where it helps."
+          },
+          "fix": {
+            "type": "string",
+            "minLength": 1,
+            "description": "A concrete change that would fix it."
+          }
+        }
+      }
+    }
+  }
+}
