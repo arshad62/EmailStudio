@@ -99,6 +99,15 @@ export default {
 
       const normalPath = path.replace(/\\/g, "/")
       const withRoot = normalPath.startsWith("/") ? normalPath : `/${normalPath}`
+
+      // This guard belongs to one studio. Its footer and sign-off are that
+      // studio's, so it must never judge another client's emails. Resolve the
+      // target and leave anything outside this project alone.
+      const target = isAbsolute(path) ? path : join(root, path)
+      const projectPath = root.replace(/\\/g, "/").replace(/\/$/, "")
+      const resolved = target.replace(/\\/g, "/")
+      if (!resolved.startsWith(`${projectPath}/`)) return
+
       if (!/\/campaigns\/.*\/emails\/[^/]+\.md$/.test(withRoot)) return
       if (normalPath.includes("/test-bad/")) return
 
