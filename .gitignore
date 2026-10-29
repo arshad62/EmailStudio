@@ -1,0 +1,14 @@
+# Personal settings. This file is never committed.
+.opencode/settings.local.json
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Local logs
+*.log
