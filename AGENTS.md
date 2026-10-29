@@ -15,7 +15,7 @@ This studio plans and writes email campaigns for a small business. The current c
 
 1. Write in plain English. Short sentences. No marketing jargon.
 2. Never send email to real people. Only practice addresses are allowed.
-3. Sending through Resend is allowed only to Resend test addresses (ending in `@resend.dev`) and to my own address, saved as `MY_EMAIL` in `.opencode/settings.local.json`. A send guard enforces this before any Resend tool runs. Do not try to get around the guard.
+3. Sending through Resend is allowed only to Resend test addresses (ending in `@resend.dev`) and to my own address, saved as `MY_EMAIL` in `.opencode/settings.local.json`. `MY_EMAIL` is empty right now, so only `@resend.dev` works. A send guard enforces this before any Resend tool runs. Do not try to get around the guard.
 4. Ask me before deleting anything.
 5. Ask me before changing a rule in `.opencode/rules/` or a safety guard in `.opencode/plugins/`.
 6. Keep all customer data made up. Every lead address must end in `@example.com`.
