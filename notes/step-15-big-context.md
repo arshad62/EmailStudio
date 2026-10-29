@@ -58,7 +58,9 @@ All six free models on this machine answered the same way, including a one-word
 probe. New top-level runs are capped; subagents inside a running session are not.
 So the reading was delegated with a real subagent (a separate context, the same
 isolation the lab is teaching) and the named session stayed empty. The command above
-is the one to run when the cap resets.
+is the one to run when the cap resets. Compaction was not affected — it runs inside the
+live session rather than as a new top-level run, which is why the memory test below
+still worked.
 
 ### The scratchpad
 
@@ -90,7 +92,49 @@ Answer from memory first. Then check notes/scratchpad.md and the files, and tell
 whether your memory was right.
 ```
 
-<!--COMPACTION-RESULT-->
+### What the compaction did
+
+`opencode api post /api/session/<id>/compact -d '{}'` queued a message of type
+`compaction`. It ran on the session's own model with `reason: manual` and completed:
+2030 output tokens, a 7,323-character summary. This session has now been compacted
+three times (two automatic, one manual), which is the point of the step — work this
+long will always get squeezed.
+
+### The memory test, answered honestly
+
+Question: *Which review file had the most complaints about damaged or wet packaging?
+Quote one. Answer from memory first.*
+
+**From memory, before opening anything:** the file name `reviews-4.md` and the count
+`11` were still there — but only because the summary's own "next move" line had written
+them down as an expectation. The aggregate survived too: 28 packaging complaints across
+the six files. **Not one quote survived.** Not the tea names, not the per-file counts,
+not a single sentence of any review.
+
+**Checked against `notes/scratchpad.md`:** `reviews-4.md`, 11. Matches.
+
+**Checked against the file:** eleven of the twenty reviews in `notes/reviews/reviews-4.md`
+mention damage to the box or the parcel, and this is one of them, verbatim:
+
+> The delivery box was wet and had clearly been left outside. The tasting card was pulp and two sachets were unusable.
+
+| What the question needed | Survived the compaction? |
+| --- | --- |
+| The right file, `reviews-4.md` | Yes — but only from a summary line that had already answered it |
+| The count, 11 | Same |
+| A quote to prove it | No. Nothing. |
+| The totals (67 / 28 / 15) | Yes |
+
+The name and the number surviving is luck, not memory: they were in the summary because
+the summary was written while the answer was still being decided. Ask a question the
+summary did not happen to answer in advance and the memory has nothing to offer. A
+quote is exactly that kind of question.
+
+### The lesson in one sentence
+
+A summary keeps the shape of the work — what was decided, what the totals were, what to
+do next — and drops the evidence. The scratchpad is not a tidier summary. It is the
+part the summary is not allowed to throw away.
 
 ## The fresh-session check
 
