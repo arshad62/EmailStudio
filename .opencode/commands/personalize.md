@@ -1,7 +1,7 @@
 ---
 description: Write one version of each campaign email for every lead group
 agent: personalize
-subagent: true
+subtask: true
 ---
 
 Follow `.opencode/skills/personalize/SKILL.md` for this campaign folder:
