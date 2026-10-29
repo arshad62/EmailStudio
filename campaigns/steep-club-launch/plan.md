@@ -115,7 +115,7 @@ All dates are real ISO dates in November 2026. Every date was checked against it
 | Date | Weekday | Audience group | Purpose | Email | Subject angle |
 |---|---|---|---|---|---|
 | 2026-11-02 | Monday | All waitlist (all three groups) | Open the club to the waitlist and set the tone | 01 — "The club is open" | The Steep Club is open to the waitlist first |
-| 2026-11-10 | Tuesday | All waitlist (emphasis: tea-curious beginners) | Explain how the club works, with no price guesswork | 02 — "How the box works" | What arrives, and how it works |
+| 2026-11-10 | Tuesday | All waitlist (emphasis: tea-curious beginners) | Explain the shape of the club without stating unconfirmed facts | 02 — "How the box works" | The shape of the club, without the guesswork |
 | 2026-11-17 | Tuesday | All waitlist (emphasis: daily tea drinkers and gift buyers) | Show what a first box feels like, without inventing gifting facts | 03 — "What arrives" | A new tea for your everyday cup |
 | 2026-11-24 | Tuesday | All non-subscribers | A calm final invitation. No fake deadline | 04 — "One more cup" | The club is still open. Here is the simple way in |
 
@@ -123,7 +123,7 @@ All dates are real ISO dates in November 2026. Every date was checked against it
 
 - **One sequence, four emails.** Every email goes to the full eligible waitlist, one a week. The three customer groups get their own versions later: same structure, subject, link and footer, with a different opening line and one example.
 - **Week 1, 2–8 November:** announce the club on Monday and set the tone.
-- **Week 2, 9–15 November:** the "how it works" email is the facts email. It must contain only confirmed facts, and it leans toward beginners.
+- **Week 2, 9–15 November:** explain the shape of the club without stating unconfirmed facts. It leans toward beginners. It must not state a price, a billing date or a box list.
 - **Week 3, 16–22 November:** show what a first box feels like. It leans toward daily drinkers and gift buyers, but it must not describe a gifting flow that is not confirmed.
 - **Week 4, 23–29 November:** one calm close on 24 November. Nothing on 27 November. No discount, no countdown.
 - **Gifting:** if gift subscriptions are not confirmed before 10 November, email 03 stays a box-and-tea email and says nothing about gifts. Gifting gets its own campaign later.
@@ -189,7 +189,7 @@ Targets are for the whole four weeks, measured per send and cumulatively.
 
 **Commercial and factual**
 
-- Price, billing cadence, box contents, shipping regions and the December cutoff must be confirmed in writing before email 02. Email 02 is the facts email and cannot be vague.
+- Price, billing cadence, box contents, shipping regions and the December cutoff must be confirmed in writing before any email states them. Email 02 deliberately does not state them and sends readers to the club page instead.
 - The pause and cancel policy must be confirmed before any email says "you can stop any time".
 - Gift subscriptions: if they are not ready, gifting is not mentioned in any email. Do not describe a gifting flow that does not exist.
 - No Black Friday discount. If someone asks for one, that is a decision for the owner, not a copy change.

@@ -1,11 +1,11 @@
 Subject: A new tea for your everyday cup
-Preview: A first look at the kind of tea that arrives in the box.
+Preview: A first look at the feeling of a box, not a list of teas.
 
 Hi {{first_name}},
 
-A first box should feel like a small discovery, not homework. We choose teas that are easy to brew and interesting enough to notice: a bright cup for the morning, a softer one for the afternoon, and something to try when you have a quiet minute.
+A first box should feel like a small discovery, not homework. Each box is a small set of teas to try, chosen to be easy to brew and interesting enough to notice: something new for a cup you already make.
 
-You do not need special equipment. A pot, a cup and hot water are enough. Each box comes with short brewing notes, so you can spend your attention on the tea rather than the instructions.
+You do not need special equipment. A pot, a cup and hot water are enough.
 
 [Take a closer look at the club](https://kettlebird.example/steep-club)
 

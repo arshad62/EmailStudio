@@ -1,11 +1,11 @@
 Subject: The club is still open
-Preview: A calm last invitation. No countdown, no pressure.
+Preview: A calm reminder. No countdown, no pressure.
 
 Hi {{first_name}},
 
-A short note to say The Steep Club is still open to the waitlist. If you have been curious, the club page explains what arrives and how it works.
+A short note to say The Steep Club is still open to the waitlist. If you have been curious, the club page explains what the club is and how to take part.
 
-If now is not the time, that is fine too. There will be another box, and you can keep the waitlist emails for when you are ready.
+If now is not the time, that is fine. You can read the club page whenever it suits you.
 
 [See The Steep Club](https://kettlebird.example/steep-club)
 

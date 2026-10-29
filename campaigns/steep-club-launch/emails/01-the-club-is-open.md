@@ -9,7 +9,7 @@ You joined the waitlist, so you get in first. There is no countdown and no scram
 
 [See how The Steep Club works](https://kettlebird.example/steep-club)
 
-If you have a question, reply to this email. A person reads every reply.
+If you have a question, reply to this email and we will help where we can.
 
 Warm cups,
 The Kettlebird Tea team
